@@ -4,27 +4,6 @@
 # every schisto has an equal chance of infecting a snail - shows no preference
 #schisto are evenly dispersed across all genotypes, where they face two outcomes: establish infection or die
 
-#everything is the same as the other thursday backup except this in the gene system:
-
-    genotype_dict = np.matlib.zeros((num_alleles, num_alleles))
-    counter1 = 0
-    counter2 = 0
-    for i in range(0, num_alleles):
-        for j in range(counter2, num_alleles):
-
-            genotype_dict[i, j] = counter1
-            genotype_dict[j, i] = counter1
-
-            if i < num_alleles-1 and j < num_alleles-1:
-                init_genotype_pop[counter1] = 10
-            else:
-                init_genotype_pop[counter1] = 0.000000001
-
-            counter1 = counter1 + 1
-        counter2 = counter2 + 1
-
-    init_genotype_pop[num_genotypes - 1] = 10  # GG
-
 
 
 ### To Do
