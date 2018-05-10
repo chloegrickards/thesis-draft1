@@ -13,11 +13,11 @@
 # Jarne 1993 - selfing rate
 
 import numpy as np
-from rqh_geneSystem import geneSystemInputs
 import scipy
 import pylab as pl
 
-from rqh_transitionMatrix_v2 import myTransitionMatrix
+from geneSystem import geneSystemInputs
+from geneDrive_transitionMatrix import myTransitionMatrix
 
 ## MODELING TOGGLES ##
 
