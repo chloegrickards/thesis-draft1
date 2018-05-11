@@ -11,3 +11,5 @@ geneDrive_transitionMatrix is called during every time step in the geneDrive_sim
 geneDrive_sim carries out the simulation specific to the honors thesis, in the context of 8 3-receptor alleles + 1 gene drive allele, compatibility-based infection, and a gene drive. 
 
 DIY_transitionMatrix is a user-friendly program that takes any number of alleles to create a transition matrix tailored to the user's desired conditions.  The DIY_transitionMatrix allows the user to toggle gene drive and selfing, and input initial genotype distribution and allele-associated fitness costs.  We hope this program will be helpful to computational biologists who hope to track genotype changes over time, especially in the presence of a gene drive.
+
+The DIY_transitionMatrix script depends on some functions in the usefulFunctions script. Use them together!
