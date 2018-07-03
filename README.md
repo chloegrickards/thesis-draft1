@@ -2,6 +2,8 @@
 
 This repository contains the code relevant to Chloe Rickard's senior honors thesis (Engineering Resistance: A CRISPR/Cas9-Mediated Gene Drive for Schistosomiasis Control).
 
+UPDATE: This repository code has been taken down in order to conserve it for future publications. For more information, please contact rickards.chloe@gmail.com
+
 geneSystem, geneDrive_transitionMatrix, and geneDrive_sim all work together to create the figures found in the thesis.  The model is modified from geneDrive_sim, which calls upon geneSystem and geneDrive_transitionMatrix as it runs.
 
 geneSystem contains basic information about the system modeled: number of alleles, number of genotypes, initial population distribution, allele fitness costs, and selfing.
